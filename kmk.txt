@@ -1,1 +1,47 @@
-hello 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Dentist</title>
+  <link rel="stylesheet" href="clinichome.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Locations</a></li>
+          </ul>
+          
+          <button class="btn book-btn" onclick="book()">Book Now</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Where prime <br>smiles meets<br> prime <span class="highlight">Dentist</span></h1>
+          <p>Teeth Cleaning & Whitening for a confident smile</p>
+          <div class="features">
+            <p><span>✔</span> Free Consultation</p>
+            <p><span>✔</span> Affordable Membership Discounts</p>
+          </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="https://motherdentalhospital.in/wp-content/uploads/2024/07/dental-hospitals.webp" alt="Dental Hospital" >
+        </div>
+      </section>
+    <section class="info">
+        <div class="bottom-content">
+            <p><b>12 Clinics in Egypt</b></p>
+            <p>+150,000 Customers</p>
+          </div>
+    </section>
+  </main>
+  <script src="home.js"></script>
+</body>
+</html>
