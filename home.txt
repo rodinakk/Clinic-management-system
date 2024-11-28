@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Dentist</title>
+  <link rel="stylesheet" href="clinichome.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="https://img.icons8.com/?size=100&id=84005&format=png&color=000000"class=logo  onclick="home()">
+      <nav>
+        <ul>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Locations</a></li>
+            <button class="btn primary" onclick="book()">Book Now</button>
+          </ul>
+          
+          
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Where prime <br>smiles meets<br> prime <span class="highlight">Dentist</span></h1>
+          <p>Teeth Cleaning & Whitening for a confident smile</p> 
+          <button class="btn book-btn" onclick="book()">Book Now</button>
+          <div class="features">
+            <p><span>✔</span> Free Consultation</p>
+            <p><span>✔</span> Affordable Membership Discounts</p>
+          </div>
+           
+        </div>
+        
+        <div class="hero-image">
+            <img src="https://i.pinimg.com/736x/55/49/98/5549988f950d79de8e49bb2ba3761b57.jpg" alt="Dental Hospital" >
+        </div>
+      </section>
+        <section class="treatments">
+          <h2>Exploring the Best-Selling Treatments in Dental</h2>
+          <div class="treatment-cards">
+            <div class="card"onclick="view1()">
+              <h3 class=" valuable">Valuable</h3>
+              <h3>Dentures and Implants</h3>
+              <p>Restore the aesthetics and function.</p>
+              <img src="https://i.pinimg.com/736x/a1/3f/b9/a13fb90a4881a201557aff9a30616042.jpg" >
+            </div>
+            <div class="card"onclick="view2()">
+              <h3 class=" popular">Popular</h3>
+              <h3>Dental Braces</h3>
+              <p>Bring your best smile with simetris tooth.</p>
+              <img src="https://i.pinimg.com/736x/95/6f/5a/956f5aec5f8f9d35fbcb8a6135561b7a.jpg" >
+            </div>
+            <div class="card"onclick="view3()">
+              <h3 class=" beauty">Beauty</h3>
+              <h3>Dental Veneer</h3>
+              <p>Improve the appearance of your teeth.</p>
+              <img src="https://i.pinimg.com/736x/dd/9a/96/dd9a96fc099928544f293d41dc446ee3.jpg" >
+            </div>
+          </div>
+        </section>
+  </main>
+  <script src="home.js"></script>
+</body>
+</html>

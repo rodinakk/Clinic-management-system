@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .header {
+    background:#0056d2;
+    padding: 10px 0;
+  }
+  .primary {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px 16px;
+    background: #fff;
+    color: #0056d2;
+    border-radius: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .book-btn {
+    background:#0056d2;
+    color:#fff;
+    border-radius: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+    height: 100;
+    flex:1;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .hero-text .highlight {
+    color: #0056d2;
+  }
+  
+  .hero-text p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .features {
+    margin-top: 20px;
+  }
+  
+  .features p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #4f0f0f;
+  }
+  .hero-image {
+     flex: 1; 
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .hero-image img {
+    width: 50%; 
+    height: auto;
+    
+}
+  
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #333;
+  }
+  .logo {
+        width: 30px; 
+        height: 30px; ;
+      }
+ .bottom-content {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .treatments {
+        padding: 40px 20px;
+        background: #ffffff;
+        text-align: center;
+      }
+      
+      
+      .treatment-cards {
+        display:flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .card {
+        background:#0056d2;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .card img {
+        width: 100px;
+        height: 100px;
+      }
+      
+      .card h3 {
+        font-size: 1.2rem;
+        color: #f2f3f4;
+        margin: 10px 0;
+      }
+      
+      .card p {
+        font-size: 0.9rem;
+        color: #f7f7f7;
+        margin-top: 10px;
+      }
+      
+      .valuable {
+        background: #00c853;
+        margin-bottom: 10px;
+       padding: 5px 10px;
+       border-radius: 20px;
+       
+      }
+      
+      .popular {
+        background:#00c853 ;
+        margin-bottom: 10px;
+       padding: 5px 10px;
+       border-radius: 20px;
+      }
+      
+      .beauty {
+        background: #00c853;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+        border-radius: 20px;
+      }
+      
